@@ -10,4 +10,21 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 /* Write your implementation of greet() */
+
+
+function greet(timeString){
+    parseInt(timeString)
+    timeString.split(" : ")
+    console.log(timeString)
+  if(timeString < 12){
+    return 'Good Morning'
+    }
+   else if(timeString >= 12 && timeString <= 17){
+    return "Good Afternoon"
+    }
+    else if(timeString > 17 && timeString <=24){
+        return "Good Evening"
+    }
+    
+}
 /* Write your implementation of displayMessage() */
